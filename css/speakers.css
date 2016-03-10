@@ -1,0 +1,113 @@
+
+.inner-spkr-txt > p.name, .inner-spkr-txt > p.designation {
+	text-align: center !important;
+}
+
+@media (max-width: 489px) {
+
+	.spkr-btn {
+/*		height:20em;*/
+	}
+
+	.spkr-btn > div > img {
+		width:250px !important;
+	}
+
+	.inner-size {
+		width:250px !important;
+	}
+
+	.inner-spkr-txt {
+		border: 1px dashed red;
+	    margin-bottom: 20px;
+	    margin-left: -47px;
+	    margin-top: -27px;
+	    width: 130%;
+	}
+
+}
+
+@media (min-width: 490px) and (max-width: 640px) {
+
+	.spkr-btn {
+/*		height:20em !important;*/
+	}
+	.inner-spkr-txt {
+		border: 1px dashed red;
+	    margin-bottom: 20px;
+	    margin-left: 9px;
+	    margin-top: -27px;
+	    width: 95%;
+	}
+
+
+
+}
+
+@media (min-width: 641px) and (max-width: 767px) {
+	
+	.inner-spkr-txt {
+		border: 1px dashed red;
+	    margin-bottom: 20px;
+	    margin-left: 8px;
+	    margin-top: -27px;
+	    width: 100%;
+	}	
+	
+}
+
+@media (min-width: 768px) and (max-width:991px) { 
+
+	.inner-spkr-txt {
+		border: 1px dashed red;
+	    margin-bottom: 20px;
+	    margin-left: -38px;
+	    margin-top: -27px;
+	    width: 95%;
+	}
+
+	.spkr-btn {
+/*		height:20em;*/
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+
+	.inner-spkr-txt {
+		border: 1px dashed red;
+	    margin-bottom: 20px;
+	    margin-left: -37px;
+	    margin-top: -27px;
+	    width: 100%;
+	}
+
+
+	
+	.spkr-btn {
+/*		height:20em;*/
+	}
+
+	.spkr-btn > div > img {
+		width:250px !important;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+	.inner-spkr-txt {
+		border: 1px dashed red;
+	    margin-bottom: 20px;
+	    margin-left: -37px;
+	    margin-top: -27px;
+	    width: 100%;
+	}
+
+
+
+	.spkr-btn {
+/*		height:20em;*/
+	}
+}

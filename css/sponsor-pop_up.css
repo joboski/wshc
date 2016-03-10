@@ -1,0 +1,30 @@
+/* maliit na cellphone na naka landscape */
+@media (min-width: 490px) and (max-width: 640px) {
+
+	.equalizer > div > div > div > p.price {
+		text-align: center !important;
+	}
+
+}
+/* Small tablet na naka landscape */
+@media (min-width: 641px) and (max-width: 767px) {
+
+	.equalizer > div > div > div > p.price {
+		text-align: center !important;
+	}
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) { 
+
+	.equalizer {
+		height:65em;
+		margin-bottom: 10px;
+	}
+
+	.equalizer > div > div > div > p.price {
+		text-align: center !important;
+	}
+
+}

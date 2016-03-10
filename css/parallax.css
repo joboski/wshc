@@ -1,0 +1,31 @@
+.parallax-new {
+	background: url(../images/hotels/stock-photo-sbd.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.parallax-new {
+	height: 600px;
+}
+.parallax-new.mobile {
+	background-attachment: scroll !important
+}
+.parallax-new.desktop {
+	height: 60vh;
+}
+.parallax-new.parallax-1 {
+	background-position: top center;
+}
+.parallax-new.parallax-2 {
+	background-image: url(../images/hotels/suntec3.jpg);
+}
+.parallax-new.parallax-3 {
+	background-image: url(../images/hotels/stock_accom_spacer.jpg);
+}
+.parallax-new.parallax-about {
+	background-image: url(../images/assets/LNP_8199.jpg);
+}
+.parallax-new.parallax-reg {
+	background-image: url(../images/assets/registration_banner.jpg);
+}

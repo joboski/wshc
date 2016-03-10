@@ -1,0 +1,265 @@
+.news_section {
+	background: #003e44;
+	padding: 25px 0;
+	color: #fff;
+}
+#news-container, #count_down-container, #count_down {
+	height: 135px;
+}
+#news_scroll {
+	height: 97px;
+}
+#count_down, #count_down * {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+#count_down {
+	margin: 10px 0 0 -20px;
+}
+#count_down .digit {
+	color: #85c440;
+	font-size: 95px;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 5px;
+}
+#count_down .line1 {
+	font-size: 16px;
+	line-height: 1.2;
+}
+#count_down .line2 {
+	padding-top: 4px;
+	color: #85c440;
+	font-size: 22px;
+	letter-spacing: 3px;
+}
+
+
+
+
+
+#news-container {
+	width: 600px;
+	max-width: 600px;
+	margin: 0 20px 0 auto;
+}
+#news-container h3 {
+	font-size: 20px;
+	color: #7ac143;
+	margin-bottom: 5px;
+}
+#news_scroll {
+	overflow-y: scroll;
+	padding-right: 10px;
+}
+.news_item {
+	vertical-align: top;
+	width: 100%;
+	height: auto;
+	margin: 0 10px 10px 0;
+	padding: 5px 5px 2px 8px;
+	background: #064D53;
+}
+.news_item:last-child {
+	margin-bottom: 0;
+}
+.news_item > * {
+	display: inline-block;
+	width: 110px;
+	margin: 0;
+}
+.news_item > a {
+	margin: 0 0 15px;
+	float: left;
+}
+.news_item > div {
+	width: auto;
+	min-width: 300px;
+	max-width: 440px;
+	margin-left: 15px;
+}
+.news_item > a > img {
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+.news_item h4 {
+	font-size: 18px;
+	color: #7ac143;
+	margin: 0 0 5px 0;
+}
+.news_item h4 span {
+	color: #eee;
+	font-size: 16px;
+}
+
+
+#speakerFlow {
+	margin: -60px auto 20px;
+}
+#speakerFlow .globalCaption {
+	margin-top: 0;
+	padding: 10px 0 25px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #222;
+}
+#speakerFlow .globalCaption, #speakerFlow .globalCaption * {
+	background: none;
+}
+#speakerFlow .globalCaption span {
+	font-size: 13px;
+	font-weight: 400;
+	font-style: italic;
+	color: #333;
+}
+#speakerFlow .scrollbar {
+	margin-top: 90px;
+}
+#speakerFlow .scrollbar .slider .position {
+	color: #eee;
+}
+
+
+.carousel-indicators li {
+	color: #7ac143;
+	border-color: #7ac143;
+	background-color: rgba(122,193,67,0.3);
+}
+.carousel-indicators li.active {
+	color: #7ac143;
+	border-color: #7ac143;
+	background-color: #7ac143;
+}
+
+
+
+
+
+
+@media(max-width: 991px) {
+	#speakerFlow {
+		margin-top: -20px;
+	}
+}
+
+
+
+
+
+
+.carousel-caption h3 {
+	font-size: 30px;
+	line-height: 1.3;
+	text-shadow: -1px -1px 2px rgba(0,0,0,0.7), 1px 1px 2px rgba(0,0,0,0.7) !important;
+}
+.carousel-caption h3 span {
+	white-space: nowrap;
+}
+@media(max-width: 1200px) {
+	.carousel-caption h3 {
+		font-size: 26px;
+	}
+}
+@media(max-width: 950px) {
+	.carousel-caption h3 {
+		font-size: 22px;
+	}
+}
+@media(max-width: 720px) {
+	.carousel-caption h3 {
+		line-height: 1.2;
+		font-size: 18px;
+	}
+}
+@media(max-width: 580px) {
+	.carousel-caption h3 {
+		line-height: 1.1;
+		font-size: 14px;
+	}
+}
+@media(max-width: 480px) {
+	.carousel-caption h3 {
+		margin-bottom: -5px !important;
+		line-height: 1;
+		font-size: 6px;
+	}
+}
+
+
+@media(max-width: 990px) {
+	#news-container, #count_down-container, #count_down {
+		height: auto;
+	}
+	#count_down {
+		margin: 10px auto -10px;
+	}
+	#news-container {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.news_item > a {
+		margin: 0 auto 15px;
+	}
+}
+@media(max-width: 630px) {
+	#news_scroll {
+		height: 180px;
+	}
+	.news_item > a {
+		display: block;
+		margin: 0 auto 15px auto;
+	}
+	.news_item > div {
+		margin-left: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+
+
+/**
+#news-container, #count_down-container {
+	border: 1px dashed red;
+}
+#count_down {
+	border: 1px dashed #0f0;
+}
+#count_down td {
+	border: 1px dotted #0c0;
+}
+.news_section {
+	border: 1px dashed red;
+}
+#news_scroll {
+	border: 1px dashed blue;
+}
+.news_item {
+	border: 1px dashed yellow;
+}
+.news_item > * {
+	border: 1px dashed orange;
+}
+.news_item h4 {
+	border: 1px dotted red;
+}
+#speakerFlow {
+	border: 1px dashed red;
+}
+#speakerFlow .globalCaption {
+	border: 1px dashed green;
+}
+#speakerFlow .scrollbar {
+	border: 1px dashed blue;
+}
+/**/
+
+/*#galwindow {
+	margin-bottom: -100px
+}*/
+
+div#footer-holder {
+	margin-top: 10px
+}

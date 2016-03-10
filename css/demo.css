@@ -1,0 +1,32 @@
+
+.scroll-img {
+  /*border: 1px solid red;*/
+  width: inherit;
+  margin:0 auto;
+  /*width: 680px;*/
+  /*height: 142px;*/
+  height:260px !important;
+  overflow: hidden;
+  font-size: 0;
+  /*padding:5px !important;*/
+}
+.scroll-img ul {
+  /*width: 1600px !important;
+  height:260px !important;
+  margin: 0;*/
+}
+.scroll-img ul li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+#galwindow.scroll-img ul,
+#galwindow.scroll-img ul {
+  width: 1500px;
+}
+#galwindow-btn {
+  width: 680px;
+  padding-top: 10px;
+}
+
+
+

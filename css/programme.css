@@ -1,0 +1,22 @@
+
+td > a {
+	color:#000;
+	text-decoration: none;
+}
+
+td > a:hover {
+	color:#555;
+}
+
+.day {
+	width:97.5%;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+span.anchor_t {
+	display:block;
+	height:145px;
+	margin-top: -145px;
+	visibility: hidden;
+}
