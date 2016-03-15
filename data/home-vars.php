@@ -57,6 +57,7 @@
 	$support0 = [
 		['http://www.scic.sg', 'partners/SCIC.jpg', '87', '35'],
 		['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65', '35'],
+		['http://www.asme.org.sg', 'partners/asme.jpg', '80', '81'],
 	];
 
 	$support1 = [

@@ -111,6 +111,13 @@ $support = [
 		'SLP is a  professional society in the SHE field. Our members come from the oil, petro-chemical and process industries. They are SHE professionals. We hold regular technical talks, training programs, round table discussions, seminars and conferences. Our members sit on advisory committees of WSHC eg. Chemical Industry sub-committee, NEA, SCDF, MOM and SPRING Singapore/Singapore Standards. Some members are Adjunct Professors at NUS.',
 		'Members who take part regularly in our activities get to meet and network with the SHE fraternity.',
 		'For more information, visit <a href=\'www.slp.org.sg\' target="_blank">www.slp.org.sg</a>'
+	],[
+		'www.asme.org.sg',
+		'partners/asme1.jpg',
+		'Association of Small and Medium Enterprises is a not-for-profit organisation established in 1986 for entrepreneurs, by entrepreneurs. With wide-ranging services and programmes, aSME strives to equip member SMEs with the business knowledge and market opportunities to help them grow their businesses.',
+		'ASME, as the champion of a pro-enterprise Singapore, bridges the public and the private sectors to promote a more conducive business environment which facilitates the start-up, growth and development of a larger pool of SMEs. The two flagship ASME awards – The Entrepreneur of the Year Award and Singapore Prestige Brand Awards are in recognition of SMEs’ successes.',
+		'ASME will continue to roll out new SME-relevant programmes to enhance its position as the business association For Entrepreneurs, By Entrepreneurs.',
+		'For more information, visit <a href=\'www.asme.org.sg\' target="_blank">www.asme.org.sg</a>'
 	],
 
 ];
