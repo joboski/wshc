@@ -10,11 +10,11 @@
 			<div class="container">	
 				<div class="col-lg-2 text-center pad-top5 mar-bot30">
 					<a href="<?= $values[0] ?>" target="_blank">
-						<img src="images/<?= $values[1] ?>" width="<?= $values[2] ?>" height="<?= $values[3] ?>" border="0">
+						<img src="images/<?= $values[1] ?>" width="<?= $values[2] ?>" border="0">
 					</a>
 				</div>
 				<div class="col-lg-10 ">
-<?php				foreach( $values[4] as $para ){					?>
+<?php				foreach( $values[3] as $para ){					?>
 					<p class="pad-left20"><?= $para ?></p>
 <?				}													?>				
 				</div>
@@ -488,11 +488,11 @@
 			<div class="container mar-bot20">	
 				<div class="col-lg-2 text-center pad-top5 mar-bot30">
 					<a href="<?= $values[0] ?>" target="_blank">
-						<img src="images/<?= $values[1] ?>" width="<?= $values[2] ?>" height="<?= $values[3] ?>" border="0">
+						<img src="images/<?= $values[1] ?>" width="<?= $values[2] ?>" border="0">
 					</a>
 				</div>
 				<div class="col-lg-10 ">
-<?php				foreach( $values[4] as $para ){					?>
+<?php				foreach( $values[3] as $para ){					?>
 					<p class="pad-left20"><?= $para ?></p>
 <?				}													?>				
 				</div>

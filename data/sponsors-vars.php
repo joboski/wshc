@@ -12,13 +12,12 @@
 
 	$sponsors = [
 
-	'Gold Sponsors' => [
+	'Gold Sponsor' => [
 		'keppel'=>
 		[
 			'http://www.kepcorp.com',
 			'partners/Keppel.jpg',
 			'160',
-			'41',
 			[
 				'With a global footprint in over 30 countries, Keppel Corporation leverages its international network, resources and talents to grow its key businesses. It aims to be the provider of choice for solutions to the offshore and marine industries, sustainable environment and urban living, guided by its key business thrusts of sustaining growth, empowering lives and nurturing communities.',
 				'The Keppel Group of companies has more than 40,000 employees worldwide, of which some 18,000 are in Singapore.',
@@ -44,7 +43,7 @@
 	// 	]
 	// ],
 
-	// 'general' => [
+	'General Sponsor' => [
 	// 	'cdl'=> 
 	// 	[
 	// 		'http://www.cdl.com.sg',
@@ -89,33 +88,29 @@
 	// 		]
 	// 	],
 
-	// 	'psa'=> 
-	// 	[
-	// 		'http://www.singaporepsa.com',
-	// 		'partners/PSA.jpg',
-	// 		'122',
-	// 		'59',
-	// 		[	
-	// 			'PSA operates the world’s largest container transhipment hub in Singapore. It links shippers to an excellent network of major shipping lines with connections to 600 ports globally.',
-	// 			'Shippers have access to daily sailings to every major port in the world at this mega hub.',
-	// 			'Its excellence in port operations has consistently been recognised by the shipping community. In 2013, it was voted the “Best Container Terminal (Asia)” for the 24th time at the Asian Freight and Supply Chain Awards. PSA Singapore Terminals handled 32.24 million TEUs of containers in 2013.',
-	// 			'For  more information, please visit us at <a href="http://www.singaporepsa.com" target="_blank">www.singaporepsa.com</a>'
-	// 		]
-	// 	]
-	// ]
+		'psa'=> 
+		[
+			'http://www.singaporepsa.com',
+			'partners/PSA.jpg',
+			'122',
+			[	
+				'PSA is one of the leading global port groups and operates the world’s largest container transhipment hub in Singapore. It links shippers to an excellent network of major shipping lines with connections to 600 ports globally. Shippers have access to daily sailings to every major port in the world at this mega hub. Its excellence in port operations has consistently been recognised by the shipping community. In 2015, it was voted the “Best Container Terminal (Asia)” at the Asian Freight, Logistics and Supply Chain Awards. As the port operator of choice in the world’s gateway hubs, PSA is “The World’s Port of Call”.',
+				'For  more information, please visit us at <a href="http://www.singaporepsa.com" target="_blank">www.singaporepsa.com</a>'
+			]
+		]
+	]
 ];
 
 
 
 $past = [
 
-	'Gold Sponsors' => [
+	'Gold Sponsor' => [
 		'keppel'=>
 		[
 			'http://www.kepcorp.com',
 			'partners/Keppel.jpg',
 			'160',
-			'41',
 			[
 				'With a global footprint in over 30 countries, Keppel Corporation leverages its international network, resources and talents to grow its key businesses. It aims to be the provider of choice for solutions to the offshore and marine industries, sustainable environment and urban living, guided by its key business thrusts of sustaining growth, empowering lives and nurturing communities.',
 				'The Keppel Group of companies has over 37,000 employees worldwide, of which some 15,000 are in Singapore. '
@@ -123,13 +118,12 @@ $past = [
 		]
 	],
 
-	'Silver Sponsors' => [
+	'Silver Sponsor' => [
 		'natsteel' =>
 		[
 			'http://www.natsteel.com.sg/',
 			'partners/NatSteel.jpg',
 			'160',
-			'49',
 			[
 				'NatSteel is a leading steel producer in Asia Pacific. A multinational company with over 2,000 employees across the region, NatSteel as a group has an annual steel production capacity of over 2 million tonnes.',
 				'NatSteel delivers premium reinforcement steel solutions for the construction industry, including reinforcement bars and wire rods as well as customised reinforcement solutions – such as cut-and-bend, welded mesh and prefabricated cages – that significantly enhance site productivity and safety.',
@@ -145,7 +139,6 @@ $past = [
 			'http://www.cdl.com.sg',
 			'partners/CDL.jpg',
 			'122',
-			'107',
 			[
 				'City Developments Limited (CDL) is a Singapore-listed international property and hospitality conglomerate with businesses in real estate development and investment, hotel ownership and management, facilities management and the provision of hospitality solutions. As Singapore\'s property pioneer, CDL holds an impressive track record of having developed over 34,000 luxurious and quality homes across diverse market segments. It is also one of the Singapore’s largest landlords.',
 				'CDL established its Environmental, Health & Safety (EHS) Policy in 2003, demonstrating its commitment towards creating a Safe and Green culture in its operations. It was the first Singapore private developer to be certified with OHSAS 18001 for occupational health and safety management.',
@@ -159,7 +152,6 @@ $past = [
 			'http://www.fareast.com.sg',
 			'partners/FEO_large1.jpg',
 			'180',
-			'49',
 			[	
 				'Far East Organization is the largest private property developer in Singapore, with a growing reputation for building innovative and functional spaces and providing high quality experiences and value for its customers. Since its establishment in 1960 by the late Mr Ng Teng Fong, Far East Organization has been contributing to the transformation of Singapore’s urban landscape with 750 developments in the residential, hospitality, retail, commercial, healthcare and industrial space segments, including 45,500 or one in six private homes in Singapore. It is also the city-state’s largest private residential landlord and largest hotels and serviced residences operator.',
 				'Far East Organization includes three listed entities: Far East Orchard Limited, a hospitality and property group, Far East Hospitality Trust which consists of Far East Hospitality Real Estate Investment Trust and Far East Hospitality Business Trust, and Yeo Hiap Seng Limited, a 114-year-old industry pioneer of processed food and beverage products in Southeast Asia.',
@@ -171,8 +163,7 @@ $past = [
 		[
 			'http://www.pcs.com.sg',
 			'partners/pcs.jpg',
-			'122',
-			'85',
+			'110',
 			[
 				'Petrochemical Corporation of Singapore (Private) Limited (PCS) is the pioneer of the petrochemical industry in the region. In February 1984, it put on stream the first full-fledged ethylene plant in Southeast Asia.',
 				'At PCS, health, safety and environment (HSE) issues are given top priority. Stringent measures are adopted to improve and sustain the health and safety of every individual in its workforce.',
@@ -186,11 +177,9 @@ $past = [
 			'http://www.singaporepsa.com',
 			'partners/PSA.jpg',
 			'122',
-			'59',
 			[	
-				'PSA operates the world’s largest container transhipment hub in Singapore. It links shippers to an excellent network of major shipping lines with connections to 600 ports globally.',
-				'Shippers have access to daily sailings to every major port in the world at this mega hub.',
-				'Its excellence in port operations has consistently been recognised by the shipping community. In 2013, it was voted the “Best Container Terminal (Asia)” for the 24th time at the Asian Freight and Supply Chain Awards. PSA Singapore Terminals handled 32.24 million TEUs of containers in 2013.',
+				'PSA is one of the leading global port groups and operates the world’s largest container transhipment hub in Singapore. It links shippers to an excellent network of major shipping lines with connections to 600 ports globally. Shippers have access to daily sailings to every major port in the world at this mega hub. Its excellence in port operations has consistently been recognised by the shipping community. In 2015, it was voted the “Best Container Terminal (Asia)” at the Asian Freight, Logistics and Supply Chain Awards. As the port operator of choice in the world’s gateway hubs, PSA is “The World’s Port of Call”.',
+				'For  more information, please visit us at <a href="http://www.singaporepsa.com" target="_blank">www.singaporepsa.com</a>'
 			]
 		]
 	]

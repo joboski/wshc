@@ -8,30 +8,6 @@
 		<div class="row parallax-new parallax-about"></div>
 		<h1 class="section-header header-bar header-about">About The Conference</h1>	
 		<div class="container">
-			<!-- <div class="col-md-12" id="conf_img">
-				<img src="images/photos2014/LNP_8199.jpg" alt="">
-			</div> -->
-			<!-- <div class="mar-bot40 mar-top30">
-				<h4>About The Event</h4>
-				<p>Debuting in 2010, The Singapore WSH Conference was established as a premier platform for workplace safety and health (WSH) stakeholders across the region. This year, the Conference is poised once again to bring together WSH professionals, business leaders and government officials to learn about latest trends and developments impacting WSH and its practice. The forth edition of this biennial conference is expected to bring together more than 1000 delegates from across the region and industries.</p>
-				<p>Increasingly, businesses and organisations have started embracing WSH as a fundamental business value, instead of viewing it as mere regulatory compliance. However, as we strive towards WSH excellence, it becomes important to understand health risks and safety issues to embrace WSH in its totality. The Singapore WSH Conference 2016, with the theme “Total WSH: The Future of Our Workplace”, aims to highlight the importance of adopting a holistic approach towards managing both safety and health risks in the workplace.</p>
-				<p>Leading practitioners and businesses will share their insights and experiences on how addressing health, along with safety, contributes to employee engagement, satisfaction and productivity, as well as organisational sustenance and business success. Case studies and examples of best practices will also contextualise the Conference’s message for Singapore. These will provide leaders and professionals with key knowledge and tools to achieve sustenance in their efforts towards better safety and health outcomes.</p>
-				<p>The Singapore WSH Conference 2016 is co-organised by the WSH Council, WSH Institute and Ministry of Manpower (MOM).</p>
-			</div> -->
-			
-				<!-- <div class="col-md-4 col-md-offset-6"> -->
-					<!-- <div class="align-center"> -->
-						<!-- <img class="mar-bot10" src="img/logo-hero.png"> -->
-						<!-- <h2 class="slogan">About the Event</h2>
-						<p>Debuting in 2010, The Singapore WSH Conference was established as a premier platform for workplace safety and health (WSH) stakeholders across the region. This year, the Conference is poised once again to bring together WSH professionals, business leaders and government officials to learn about latest trends and developments impacting WSH and its practice. The forth edition of this biennial conference is expected to bring together more than 1000 delegates from across the region and industries.</p>
-						<p>Increasingly, businesses and organisations have started embracing WSH as a fundamental business value, instead of viewing it as mere regulatory compliance. However, as we strive towards WSH excellence, it becomes important to understand health risks and safety issues to embrace WSH in its totality. The Singapore WSH Conference 2016, with the theme “Total WSH: The Future of Our Workplace”, aims to highlight the importance of adopting a holistic approach towards managing both safety and health risks in the workplace.</p>
-						<p>Leading practitioners and businesses will share their insights and experiences on how addressing health, along with safety, contributes to employee engagement, satisfaction and productivity, as well as organisational sustenance and business success. Case studies and examples of best practices will also contextualise the Conference’s message for Singapore. These will provide leaders and professionals with key knowledge and tools to achieve sustenance in their efforts towards better safety and health outcomes.</p>
-						<p>The Singapore WSH Conference 2016 is co-organised by the WSH Council, WSH Institute and Ministry of Manpower (MOM).</p> -->
-					<!-- </div> -->
-				<!-- </div> -->
-			
-			
-			
 			<div>
 				<p>Debuting in 2010, The Singapore WSH Conference was established as a premier platform for workplace safety and health (WSH) stakeholders across the region. This year, the Conference is poised once again to bring together WSH professionals, business leaders and government officials to learn about latest trends and developments impacting WSH and its practice. The fourth edition of this biennial conference is expected to bring together more than 800 delegates from across the region and industries.</p>
 				<p>This year, The Singapore WSH Conference, with the theme “Total WSH: The Future of Our Workplace”, highlights the importance of adopting a holistic approach towards managing both safety and health risks in the workplace. Leading practitioners and businesses will share their insights and experiences on how addressing health, along with safety, contributes to employee engagement, satisfaction and productivity, as well as organisational sustenance and business success. The Conference will provide leaders and professionals with key knowledge and tools to achieve sustenance in their efforts towards better safety and health outcomes.</p>
@@ -46,10 +22,10 @@
 		<div class="container">
 			<div class="row mar-top20">
 				<div class="col-md-2 text-center pad-top5 mar-bot30">
-					<img src='images/<?= $row[0] ?>' alt="Image">
+					<img src='images/<?= $row[0] ?>' alt="organiser" width="<?= $row[1] ?>">
 				</div>
 				<div class="col-md-10">
-<?				for( $org=1; $org<count($row); $org++ ){			?>
+<?				for( $org=2; $org<count($row); $org++ ){			?>
 						<p><?= $row[$org] ?></p>
 <?				}													?>	
 				</div>			
@@ -65,7 +41,7 @@
 	<div class="container">
 		<div class="row mar-top20">
 			<div class="col-md-2 text-center pad-top5 mar-bot30">
-				<img src='images/<?= $row[1] ?>' alt="Image">
+				<img src='images/<?= $row[0] ?>' alt="strategic partner" width="<?= $row[1] ?>">
 			</div>
 				<div class="col-md-10">
 <?				for( $strategic=2; $strategic<count($row); $strategic++ ){			?>
@@ -84,7 +60,7 @@
 		<div class="container">
 			<div class="row mar-top20">
 				<div class="col-md-2 text-center pad-top5 mar-bot30">
-					<img src='images/<?= $row[1] ?>' alt="Image" >
+					<img src='images/<?= $row[0] ?>' alt="supporting partner" width="<?= $row[1] ?>">
 				</div>
 				<div class="col-md-10">
 	<?		for( $support=2; $support<count($row); $support++ ){			?>

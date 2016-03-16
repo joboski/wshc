@@ -17,7 +17,7 @@
        			<h5 class="txt-bold align-center">Strategic Partners</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $strat1 as $value ){	?>
-       				<li style="width:<?= $value[2] ?>; height:<?= $value[3] ?>;"><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>" height="<?php echo $value[3] ?>"/></a></li>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>
        		</div>
@@ -25,15 +25,15 @@
        			<h5 class="txt-bold align-center">Strategic Partners</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $strat2 as $value ){	?>
-       				<li style="width:<?= $value[2] ?>; height:<?= $value[3] ?>;"><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>" height="<?php echo $value[3] ?>"/></a></li>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>
        		</div>
        		<div class="logo_array" style="display:none;">
-       			<h5 class="txt-bold align-center">Supporting Partner</h5>	
+       			<h5 class="txt-bold align-center">Supporting Partners</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $support0 as $value ){	?>
-       				<li style="width:<?= $value[2] ?>; height:<?= $value[3] ?>;"><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>" height="<?php echo $value[3] ?>"/></a></li>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>
        		</div>
@@ -41,7 +41,7 @@
        			<h5 class="txt-bold align-center">Supporting Partners</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $support2 as $value ){	?>
-       				<li style="width:<?= $value[2] ?>; height:<?= $value[3] ?>;"><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>" height="<?php echo $value[3] ?>"/></a></li>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>
        		</div>
@@ -49,7 +49,7 @@
        			<h5 class="txt-bold align-center">Supporting Partners</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $support3 as $value ){	?>
-       				<li style="width:<?= $value[2] ?>; height:<?= $value[3] ?>;"><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>" height="<?php echo $value[3] ?>"/></a></li>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>
        		</div>
@@ -57,34 +57,38 @@
        			<h5 class="txt-bold align-center">Supporting Partners</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $support4 as $value ){	?>
-       				<li style="width:<?= $value[2] ?>; height:<?= $value[3] ?>;"><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>" height="<?php echo $value[3] ?>"/></a></li>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>
        		</div>
        		<div class="logo_array" style="display:none;">
        			<h5 class="txt-bold align-center">Gold Sponsor</h5>	
        			<ul class="list-inline align-center">
-       				<li><a href="http://www.kepcorp.com" target="_blank"><img src="images/partners/KGroup.jpg" target="_blank" alt="" width="122" height="23"></a></li>
+                            <? foreach ($gold as $value) {     ?>
+                                  <li><a href="<?= $value[0] ?>" target="_blank"><img src="images/<?= $value[1] ?>" target="_blank" alt="" width="<?php echo $value[2] ?>"></a></li>
+                            <? }   ?>
        			</ul>
        		</div>
        		<div class="hide" style="display:none;">
        			<h5 class="txt-bold align-center">Silver Sponsor</h5>	
        			<ul class="list-inline align-center">
-       				<li><a href="http://www.natsteel.com.sg/" target="_blank"><img src="images/partners/NatSteel.jpg" alt="" width="122" height="44"></a></li>
+       			<? foreach ($silver as $value) {     ?>
+                                  <li><a href="<?= $value[0] ?>" target="_blank"><img src="images/<?= $value[1] ?>" target="_blank" alt="" width="<?php echo $value[2] ?>"></a></li>
+                            <? }   ?>
        			</ul>
        		</div>
-       		<div class="hide" style="display:none;">
-       			<h5 class="txt-bold align-center">General Sponsors</h5>	
+       		<div class="logo_array" style="display:none;">
+       			<h5 class="txt-bold align-center">General Sponsor</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $general as $value ){	?>
-       				<li style="width:<?= $value[2] ?>; height:<?= $value[3] ?>;"><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>" height="<?php echo $value[3] ?>"/></a></li>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>
        		</div>
        		<div class="logo_array" style="display:none;">
        			<h5 class="txt-bold align-center">Concurrent Exhibition</h5>	
        			<ul class="list-inline align-center">
-       				<li><a href="http://www.osha-singapore.com" target="_blank"><img src="images/partners/OSHA2016_Logo.jpg" alt="" width="150" height="75"></a></li>
+       				<li><a href="http://www.osha-singapore.com" target="_blank"><img src="images/partners/OSHA2016_Logo.jpg" alt="" width="140"></a></li>
        			</ul>
        		</div>
 		<!-- </div> -->

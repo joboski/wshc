@@ -3,15 +3,18 @@
 $organisers = [
 	[
 		'logo/wshcouncil_logo.jpg',
+		'120',
 		'The <b>Workplace Safety and Health Council</b> was established on 1 April 2008 to spearhead industry efforts to raise WSH standards in Singapore. Evolving from the former WSH Advisory Committee and empowered with enhanced statutory powers, the 17-member strong Council comprises of leaders from across the major industry sectors. Members include representatives from industries such as oil and gas, construction, manufacturing, property development, legal, insurance, academia, unions and associations.',
 		'The Council incorporates 12 industry-specific committees, taskforces and workgroups in the area of construction and landscape, chemical industries, healthcare, logistics and transport, marine industries, hospitality and entertainment, and metalworking and manufacturing, insurance, and facilities management. In addition, three functional committees on engagement and outreach, industry capability building, and workplace health tackle specific focus areas to support overall Council initiatives.',
 		'For more information, visit <a href=\'http://www.wshc.sg\' target="_blank">www.wshc.sg</a>',
 	],[
 		'logo/wshinstitute_logo.jpg',
+		'100',
 		'The <b>WSH Institute</b> was first mooted as part of the WSH 2018 strategy to put Singapore\'s WSH performance on par with leading countries in this area. Envisioned as a key initiative to build strong WSH capabilities in Singapore, the Institute\'s work will help deepen stakeholders\' understanding of how current and emerging work environments, work processes and worker behaviour shape WSH, and use such knowledge to develop solutions and improve WSH practices.',
 		'For more information, visit <a href=\'http://www.wsh-institute.sg\' target="_blank">www.wsh-institute.sg</a>',
 	],[
 		'logo/mom_logo.jpg',
+		'110',
 		'The <b>Ministry of Manpower</b> aspires to develop a globally competitive workforce and a great workplace, for a cohesive society and a secure economic future for all Singaporeans.',
 		'The Ministry also aspires to build progressive workplaces, strengthen tripartite relationships and encourage harmonious work cultures to create fair and forward-looking employment practices that provide safe and healthy work environments and enable balanced work-life.',
 		'For more information, visit <a href=\'http://www.mom.gov.sg\' target="_blank">www.mom.gov.sg</a>',
@@ -22,29 +25,29 @@ $organisers = [
 
 $strategic = [
 	[
-		'http://www.hpb.gov.sg',
 		'partners/new/hpb_130_1.jpg',
+		'110',
 		'The Health Promotion Board was established as a statutory board under the Ministry of Health, Singapore, in 2001 with the vision of building “A Nation of Healthy People”. The Health Promotion Board aims to empower the people of Singapore to attain optimal health, increase the quality and years of healthy life and prevent illness, disability and premature death. As the key agency overseeing national health promotion and disease prevention programmes, HPB spearheads health education, promotion and prevention programmes as well as creates a health-supportive environment in Singapore. It develops and organises relevant health promotion and disease prevention programmes, reaching out to the healthy, the at-risk and the unhealthy at all stages of life – children, youths, adults and older Singapore residents. Its health promotion programmes include nutrition, mental health, physical activity, smoking control and communicable disease education. For working adults, HPB manages the Workplace Health Promotion Programme, aimed at creating a healthy, productive and engaged workforce. HPB also promotes healthy ageing, integrated health screening, and chronic disease education and management.',
 		'For more information, visit <a href=\'http://www.hpb.gov.sg\' target="_blank">www.hpb.gov.sg</a>',
 	],[
-		'www.iali-aiit.org',
+		
 		'partners/new/iali_1.jpg',
+		'95',
 		'The International Association of Labour Inspection (IALI) is the global professional association for labour inspection. It was established in 1972, and currently has over 100 members worldwide.',
 		'The main aims of IALI are:',
 		'<ul><li>To promote the professionalism of its members on all aspects of labour inspection, so as to enhance their impact and effectiveness;</li><li>To hold international and regional conferences and similar events at which members can exchange ideas and experience about how best to promote compliance with labour law and good practice;</li><li>To provide information to its members about professional issues through the Association\'s website, newsletters, reports and other publications;</li><li>To promote closer collaboration between its members, through regional networking and activities.</li></ul>',
 		'IALI has always worked in close partnership with the International Labour Office and other host country organisations, and is increasingly working at regional levels.',
 		'For more information, visit <a href=\'http://www.iali-aiit.org\' target="_blank">www.iali-aiit.org</a>'
 	],[
-		'www.icohweb.org',
-		// 'partners/ICOH.jpg',
 		'partners/new/icoh_130_1.jpg',
+		'85',
 		'The International Commission on Occupational Health (ICOH) is an international non-governmental professional society whose aims are to foster the scientific progress, knowledge and development of occupational health and safety in all its aspects. It was founded in 1906 in Milan as the Permanent Commission on Occupational Health. Today, ICOH is the world\'s leading international scientific society in the field of occupational health with a membership of 2,000 professionals from 93 countries.',
 		'The ICOH is recognized by the United Nations as a non-governmental organisation (NGO) and has close working relationships with ILO, WHO, UNEP and ISSA. Its official languages are English and French. The most visible activities of ICOH are the triennial World Congresses on Occupational Health, which are usually attended by some 3,000 participants. The 2000 Congress was held in Singapore, the 2003 Congress in Iguassu Falls (Brazil), the 2006 Centennial Congress was held in Milan (Italy), the 2009 Congress was held in Cape Town (South Africa), the 2012 Congress in Cancun (Mexico), the 2015 Congress was held in Seoul (Rep. of Korea), the 2018 Congress venue shall be Dublin (Ireland) while the 2021 Congress will be in Melbourne (Australia). ICOH has 37 Scientific Committees. Most of these committees have regular symposia, scientific monographs and review the abstracts submitted to the International Congresses.',
 		'ICOH operates in consideration of the overriding importance of permanent training and education of experts in order to face the rapidly changing world of work, the need to develop occupational health services throughout the world (including the development and dissemination of basic occupational health services - BOHS), the importance of creating BOHS guidelines, tools, training, and pilot projects and the intention of making a global survey on the OHS situation in ICOH member countries. Cooperation with WHO, ILO and other NGO partners is among the priorities of the current ICOH Strategy.',
 		'For more information, visit <a href=\'http://www.icohweb.org\' target="_blank">www.icohweb.org</a>'
 	],[
-		'http://www.iosh.co.uk',
 		'partners/new/iosh_130_1.jpg',
+		'85',
 		'The Institution of Occupational Safety and Health is the only Chartered body for health and safety professionals in the world. We were founded in 1945 and have been registered as a charity since 1962. In 2002 we were awarded a Royal Charter.',
 		'With more than 45,000 individual members working in 122 countries, we’re the biggest professional health and safety organisation in the world.',
 		'We work with a range of global organisations to raise awareness and standards, developing training for schools and businesses, and running campaigns that are relevant to millions of working people.',
@@ -53,43 +56,41 @@ $strategic = [
 		'We are a not for profit organisation recognised by the ILO as a non-governmental organisation.',
 		'For more information, visit <a href=\'http://www.iosh.co.uk\' target="_blank">www.iosh.co.uk</a>',
 	],[
-		'http://www.ilo.org/',
-		// 'partners/ILO.jpg',
 		'partners/new/ilo_1.jpg',
+		'60',
 		'The International Labour Organization (ILO) is the United Nations Agency for the world of work. It sets international labour standards, priorities, rights at work and encourages decent employment opportunities, the enforcement of social protections and the strengthening of dialogue on work-related issues. The ILO has a unique structure, bringing together governments, employers\' and workers\' representatives.',
-		// 'In promoting social justice and internationally recognized human and labour rights, the organization continues to pursue its founding mission that labour peace is essential to prosperity. Today, the ILO helps advance the creation of decent jobs and the kinds of economic and working conditions that give working people and business people a stake in lasting peace, prosperity and progress.',
 		'For more information, visit <a href=\'http://www.ilo.org/global/about-the-ilo/lang--en/index.htm\' target="_blank">www.ilo.org</a>',
 	],[
-		'http://www.ntuc.org.sg',
 		'partners/new/ntuc_130_1.jpg',
+		'90',
 		'The National Trades Union Congress (NTUC) is a national confederation of trade unions in the industrial, service and public sectors in Singapore. NTUC\'s objectives are to help Singapore stay competitive and workers remain employable for life; to enhance the social status and well-being of workers; and to build a strong, responsible and caring labour movement. NTUC\'s vision is to be an inclusive labour movement for all collars, ages and nationalities. NTUC is at the heart of the Labour Movement, which comprises 60 affiliated unions, one affiliated taxi association, 11 social enterprises, five related organisations and over 880,000 members.',
 		'For more information, visit <a href=\'http://www.ntuc.org.sg\' target="_blank">www.ntuc.org.sg</a>',
 	],[
-		'http://www.sbf.org.sg/',
 		'partners/SBF_130.jpg',
+		'110',
 		'The Singapore Business Federation (SBF) is the apex business chamber representing the business community’s interests in Singapore and abroad in trade, investment and industrial relations.',
 		'Established on 1 April 2002 and with a membership of 22,500 companies, all Singapore-registered companies with a share capital of S$0.5 million and above are members of SBF. The Federation also works closely with key local and foreign business chambers that contribute significantly to the Singapore economy.',
 		'In championing the interests of the Singapore business community, SBF adopts a three-pronged approach – advocating key issues impacting the Singapore business community both locally and overseas, strengthening the competiveness and resilience of businesses through capability building initiatives, as well as facilitating networking efforts to help businesses establish contacts and tap into opportunities in Singapore and overseas.',
 		'For more information, visit <a href=\'http://www.sbf.org.sg/\' target="_blank">www.sbf.org.sg/</a>'
 	],[
-		'http://www.shri.org.sg',
 		'partners/new/SHRI_1.jpg',
+		'90',
 		'Singapore Human Resources Institute (SHRI) is a leading, not-for-profit, professional HR body, which represents a strong network of members, comprising individuals and organisations across diverse industries.',
 		'The SHRI group - comprising SHRI Academy, SHRI Corporate Learning & Consultancy Hub and The Singapore Professionals’ & Executives’ Co-operative (SPEC) - offers a wide range of services to promote continuous learning, skills-upgrading and professional development. SHRI and its predecessors have contributed much in the development of appropriate standards of HR and is a pioneer of Singapore’s HR Accreditation Framework, The Singapore HR Awards, The National Workplace Happiness Survey, The Singapore HR Congress & Business-Connect Exposition and the HR Pinnacle<sup>TM</sup>.',
 		'SHRI also works closely with national HR associations worldwide, such as the World Federation of People Management Associations (WFPMA), the Asia Pacific Federation of Human Resource Management (APFHRM) and the Society for Human Resource Management (SHRM), to bring global and regional best HR practices and insights to people managers in Singapore.',
 		'Since 1965, SHRI has been instrumental in building the HR brand in tandem with Singapore’s nation building efforts since our independence in the same year. In 2015, SHRI celebrated <i>50 years of powering human capital in Singapore.</i>',
 		'For more information, visit <a href=\'http://www.shri.org.sg\' target="_blank">www.shri.org.sg</a>'
 	],[
-		'http://www.siso.org.sg',
 		'partners/new/siso_130_1.jpg',
+		'85',
 		'Established in 1975, the Singapore Institution of Safety Officers (SISO) has since grown to more than 1,300 members who are not only workplace safety & health (WSH) officers but also specialists in occupational safety, health and environment, fire-safety, occupational hygiene and ergonomics.',
 		'SISO’s vision is to be the leading Institution representing WSH professionals in Singapore and its mission is to establish professional development opportunities to enhance the competence and status of our members and to promote and uphold high standards of professional practice among our members. SISO’s members serve actively in many different industries and provide professional services that add value to the businesses in which they work. Many also represent the Institution in working committees in the Ministry of Manpower, Workplace Safety and Health Council’s Functional & Industry Committees, Workforce Development Agency (WDA), LTA, and SPRING Singapore, amongst others.',
 		'In addition to our current professional development programmes, since April 2014, SISO has been appointed by WDA as a Continuing Education and Training Centre to conduct national Workforce Skills Qualification courses in WSH.  In July, 2013, SISO signed an MOU with the Organising Committee of the 28th SEA Games 2015 to work together towards the safety of the Games.  Through this MOU, over 120 SISO volunteers contributed their expertise and advice in developing risk assessment plans for the various Games venues.  In June 2015, SISO also signed an MOU with NTUC and is now a U-Associate Partner.  Through this MOU with NTUC, SISO has gained additional leverage to reach out to a wider audience of PMEs and SISO members can also take advantage of the multitude of benefits of being a U-Associate Member.',
 		'At the international level, SISO is a Board member and Secretary-Treasurer of the International Network of Safety and Health Practitioner Organisations (INSHPO). SISO was also accepted as a Full Member of the Asia Pacific Occupational Safety & Health Organisation (APOSHO) in October 2013.',
 		'For more information, visit <a href=\'http://www.siso.org.sg\' target="_blank">www.siso.org.sg</a>',
 	],[
-		'http://www.snef.org.sg',
 		'partners/new/snef_130_1.jpg',
+		'100',
 		'The Singapore National Employers Federation (SNEF) was established in 1980. SNEF is a trade union of employers dedicated to preserving industrial harmony and helping employers achieve excellence in employment practices, thereby enhancing productivity, competitiveness as well as the quality of their employees\' work life.',
 		'With the support of over 2,000 corporate members, SNEF is an active player in facilitating the tripartite partnership among the Government, employers and unions.',
 		'For more information, visit <a href=\'http://www.snef.org.sg\' target="_blank">www.snef.org.sg</a>',
@@ -99,25 +100,42 @@ $strategic = [
 
 $support = [
 	
+	// [
+		
+	// 	'partners/asme1.jpg',
+	//  	'100',
+	// 	'Association of Small and Medium Enterprises is a not-for-profit organisation established in 1986 for entrepreneurs, by entrepreneurs. With wide-ranging services and programmes, aSME strives to equip member SMEs with the business knowledge and market opportunities to help them grow their businesses.',
+	// 	'ASME, as the champion of a pro-enterprise Singapore, bridges the public and the private sectors to promote a more conducive business environment which facilitates the start-up, growth and development of a larger pool of SMEs. The two flagship ASME awards – The Entrepreneur of the Year Award and Singapore Prestige Brand Awards are in recognition of SMEs’ successes.',
+	// 	'ASME will continue to roll out new SME-relevant programmes to enhance its position as the business association For Entrepreneurs, By Entrepreneurs.',
+	// 	'For more information, visit <a href=\'www.asme.org.sg\' target="_blank">www.asme.org.sg</a>'
+	// ],
 	[
-		'http://www.scic.sg',
+		'partners/enetosh.jpg',
+		'85',
+		'The European Network Education and Training in Occupational Safety and Health (ENETOSH) was set up with the financial support of the European Commission as a 24-month-project in 2005. It started out with 13 partners from 10 countries and celebrated its 10-years-anniversary in 2015 at the European Agency for Safety and Health at Work in Bilbao. Now the network has 81 members from 33 countries all over the world. It is coordinated by the Institute for Work and Health of the German Social Accident Insurance (IAG).',
+		'The fundamental aim of ENETOSH is to promote quality in education and training by mainstreaming safety and health into education and training. By this promotion a solid basis for a culture of prevention is build.',
+		'The idea that safety and health are an integral part of the learning and working environment in all phases of life, guides the work of ENETOSH, which is why it covers all areas of education and training, from kindergarten to school, initial vocational training, higher education through to continuing vocational training.',
+		'One instrument of the work of ENETOSH is the web platform www.enetosh.net, which offers information on the network, news, an expert’s area and a collection of 765 examples of good practice from 45 countries. ENETOSH is currently carrying out a small empirical study investigating the Good Practice Examples in this database. ',
+		'ENETOSH is part of a worldwide network of networks with a focus on education and training in occupational safety and health.',
+		'For more information, visit <a href=\'http://www.enetosh.net\' target="_blank" >www.enetosh.net</a>'
+	],[
+		'partners/ras.jpg',
+		'110',
+		'As the pioneer and largest F&B Association in Singapore, Restaurant Association of Singapore (RAS) has more than 300 members accounting for more than 2,300 outlets. Our members comprise a good mix of various cuisines and other business models such as caterers, fast foods and food courts, providing a wholesome view and opinion, with the common goal to propel the industry forward.',
+		'For the past 35 years, RAS has acted as a collective voice for the F&B industry and strived to advance the industry through various platforms such as bridging a closer working relationships between businesses and government agencies, networking events, recognition and awards platforms and administering programmes to drive business success such as 5S and SME Talent Programme.',
+		'For more information, visit <a href=\'http://www.ras.org.sg\' target="_blank" >www.ras.org.sg</a>'
+	],[
 		'partners/new/scic_130.jpg',
+		'100',
 		'The Singapore Chemical Industry Council or (SCIC) is the official body representing the Chemical Industry of Singapore in the private sector. It plays a proactive role in representing the interests of the local chemical industry and continues to promote it as a major economic pillar of Singapore.',
 		'SCIC was officially formed under the umbrella of the former Singapore Manufacturers Association (SMa) on 8th May 1979 by a group of 17 manufacturers. SCIC is affiliated to the ASEAN Chemical Industries Council (ASEAN-CIC). It was incorporated as an independent entity on 28 June 2007.',
 		'For more information, visit <a href=\'http://www.scic.sg\' target="_blank" >www.scic.sg</a>'
 	],[
-		'www.slp.org.sg',
 		'partners/slp.jpg',
+		'90',
 		'SLP is a  professional society in the SHE field. Our members come from the oil, petro-chemical and process industries. They are SHE professionals. We hold regular technical talks, training programs, round table discussions, seminars and conferences. Our members sit on advisory committees of WSHC eg. Chemical Industry sub-committee, NEA, SCDF, MOM and SPRING Singapore/Singapore Standards. Some members are Adjunct Professors at NUS.',
 		'Members who take part regularly in our activities get to meet and network with the SHE fraternity.',
 		'For more information, visit <a href=\'www.slp.org.sg\' target="_blank">www.slp.org.sg</a>'
-	],[
-		'www.asme.org.sg',
-		'partners/asme1.jpg',
-		'Association of Small and Medium Enterprises is a not-for-profit organisation established in 1986 for entrepreneurs, by entrepreneurs. With wide-ranging services and programmes, aSME strives to equip member SMEs with the business knowledge and market opportunities to help them grow their businesses.',
-		'ASME, as the champion of a pro-enterprise Singapore, bridges the public and the private sectors to promote a more conducive business environment which facilitates the start-up, growth and development of a larger pool of SMEs. The two flagship ASME awards – The Entrepreneur of the Year Award and Singapore Prestige Brand Awards are in recognition of SMEs’ successes.',
-		'ASME will continue to roll out new SME-relevant programmes to enhance its position as the business association For Entrepreneurs, By Entrepreneurs.',
-		'For more information, visit <a href=\'www.asme.org.sg\' target="_blank">www.asme.org.sg</a>'
 	],
 
 ];
