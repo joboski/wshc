@@ -29,9 +29,11 @@
 <section class="section">
 	<h2 class="section-header header-bar header-sponsors">Be a sponsor!</h2>
 	<div class="container" >
+		<div class=pad-top20>
 <?php 	foreach( $sponsors_para as $para ){								?>
-			<div><p><?php echo $para ?></p></div>
+			<p><?php echo $para ?></p>
 <?		}																?>
+		</div>
 	</div>
 	<h2 class="section-header header-bar header-sponsors">Sponsorship Packages for The Singapore WSH Conference 2016</h2>
 
@@ -497,7 +499,7 @@
 <?				}													?>				
 				</div>
 			</div>
-	<?		}														?>		
+	<?		}														?>	
 		</div>
 <? }	?>
 </section>

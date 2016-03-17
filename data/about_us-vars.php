@@ -131,6 +131,15 @@ $support = [
 		'SCIC was officially formed under the umbrella of the former Singapore Manufacturers Association (SMa) on 8th May 1979 by a group of 17 manufacturers. SCIC is affiliated to the ASEAN Chemical Industries Council (ASEAN-CIC). It was incorporated as an independent entity on 28 June 2007.',
 		'For more information, visit <a href=\'http://www.scic.sg\' target="_blank" >www.scic.sg</a>'
 	],[
+		'partners/sha.jpg',
+		'160',
+		'The Singapore Hotel Association (SHA) is the umbrella body for hotels in Singapore. Its membership is made up of hotel entities which are represented by proprietors of hotels or appointed representatives.',
+		'Its current membership comprises 148 hotels which accounts for more than 90% of total gazetted room count.',
+		'The SHA is currently headed by its Executive Director, Ms Margaret Heng, who is also the Chief Executive of SHATEC.',
+		'Activities of SHA revolve around the following main themes:',
+		'<ul><li>Research and Representations</li> <li>Marketing and Promotions</li> <li>Manpower and Training</li> <li>Productivity and Service Excellence</li> <li>Safety and Security</li> <li>Community and Public Relations</li> <li>Publications</li></ul>',
+		'For more information, visit <a href=\'www.sha.org.sg\' target="_blank">www.sha.org.sg</a>'
+	],[
 		'partners/slp.jpg',
 		'90',
 		'SLP is a  professional society in the SHE field. Our members come from the oil, petro-chemical and process industries. They are SHE professionals. We hold regular technical talks, training programs, round table discussions, seminars and conferences. Our members sit on advisory committees of WSHC eg. Chemical Industry sub-committee, NEA, SCDF, MOM and SPRING Singapore/Singapore Standards. Some members are Adjunct Professors at NUS.',
@@ -203,26 +212,6 @@ $support_old = [
 		'The Singapore Contractors Association Ltd (SCAL), formed in 1937, has grown in strength and representation to be the official representative body of the construction industry in Singapore.',
 		'SCAL is well represented in numerous policy-making committees of professional and government bodies. SCAL is affiliated to various regional and international bodies to foster fellowship and co-operation.',
 		'SCAL is also fully committed to provide our members with a wide range of support from upgrading and updating fellow members on the latest construction practices and regulation to administrative assistance.  4 subsidiaries, namely, SC2, SCAL Resources and SCAL Academy and SCAL Dormitory were incorporated to provide a holistic approach for the betterment of our members.',
-	],[
-		'http://www.scic.sg',
-		'partners/new/scic_130.jpg',
-		'The Singapore Chemical Industry Council or (SCIC) is the official body representing the Chemical Industry of Singapore in the private sector. It plays a proactive role in representing the interests of the local chemical industry and continues to promote it as a major economic pillar of Singapore.',
-		'SCIC was officially formed under the umbrella of the former Singapore Manufacturers Association (SMa) on 8th May 1979 by a group of 17 manufacturers. SCIC is affiliated to the ASEAN Chemical Industries Council (ASEAN-CIC). It was incorporated as an independent entity on 28 June 2007.',
-		'For more information, visit <a href=\'http://www.scic.sg\'>http://www.scic.sg</a>'
-	],[
-		'http://www.sha.org.sg',
-		'partners/SHA.jpg',
-		'The Singapore Hotel Association (SHA) is the umbrella body for hotels in Singapore. Its membership is made up of hotel entities which are represented by proprietors of hotels or appointed representatives.',
-		'Its current membership comprises 132 hotels which accounts for about 90% of total gazetted room count. The SHA is currently headed by its Executive Director, Ms Margaret Heng, who is also the Chief Executive of SHATEC.',
-		'Activities of SHA revolve around the following main themes:<ul><li>Research and Representations</li><li>Marketing and Promotions</li><li>Manpower and Training</li><li>Productivity and Service Excellence</li><li>Safety and Security</li><li>Community and Public Relations</li><li>Publications</li></ul>',
-		'SHA also manages Hotel Reservations Pte Ltd which operates the hotel reservation counters at the airport. In addition, the SHA has a training arm, SHATEC, which was set up in 1983 to provide skilled manpower to the hotel industry.',
-		'For more information, visit <a href=\'http://www.sha.org.sg\'>http://www.sha.org.sg</a>'
-	],[
-		'www.slp.org.sg',
-		'partners/slp.jpg',
-		'SLP is a professional society in the SHE field. Our members come from the oil, petro-chemical and process industries. They are SHE professionals. We hold regular technical talks, training programs, round table discussions, seminars and conferences. Our members sit on advisory committees of WSHC eg. Chemical Industry sub-committee, NEA, SCDF, MOM and SPRING Singapore/Singapore Standards. Some members are Adjunct Professors at NUS.',
-		'Members who take part regularly in our activities get to meet and network with the SHE fraternity.',
-		'For more information, visit <a href=\'www.slp.org.sg\'>www.slp.org.sg</a>'
 	],[
 		'www.smfederation.org.sg',
 		'partners/logo_smf.jpg',

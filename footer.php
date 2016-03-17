@@ -37,10 +37,10 @@
        			<? }	?>
        			</ul>
        		</div>
-       		<div class="hide" style="display:none;">
+       		<div class="logo_array" style="display:none;">
        			<h5 class="txt-bold align-center">Supporting Partners</h5>	
        			<ul class="list-inline align-center">
-       			<? foreach( $support2 as $value ){	?>
+       			<? foreach( $support1 as $value ){	?>
        				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
        			<? }	?>
        			</ul>

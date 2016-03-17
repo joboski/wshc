@@ -97,6 +97,9 @@ $sponsors = [
 	]
 ];
 
+array_pop($sponsor_lists['keppel'][3]);
+array_pop($sponsor_lists['psa'][3]);
+
 $past = [
 
 	'Gold Sponsor' => [

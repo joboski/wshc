@@ -45,11 +45,9 @@
 
 
 	$strat2 = [
-		// ['http://www.ntuc.org.sg', 'partners/ntuc_footer.jpg', '85', '40'],
 		['http://www.ntuc.org.sg', 'partners/ntuc_new1.jpg', '70'],
 		['http://www.sbf.org.sg', 'partners/sbf.jpg', '90'],
 		['http://www.shri.org.sg', 'partners/SHRI.jpg', '58'],
-		// ['http://www.siso.org.sg', 'partners/siso_footer.jpg', '71', '49'],
 		['http://www.siso.org.sg', 'partners/siso.png', '55'],
 		['http://www.snef.org.sg/', 'partners/snef_footer.jpg', '83'],
 	];
@@ -59,16 +57,20 @@
 		['http://www.enetosh.net', 'partners/enetosh.jpg', '55'],
 		['http://www.ras.org.sg', 'partners/ras.jpg', '80'],
 		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
+		['http://www.sha.org.sg', 'partners/sha.jpg', '120'],
 		['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
 	];
 
 	$support1 = [
-		['http://www.aiha.org', 'partners/AIHA.jpg', '83'],
-		['http://www.aspri.com.sg', 'partners/aspri_footer.jpg', '71'],
-		['http://www.asse.org', 'partners/asselogo.jpg', '49'],
-		['https://osha.europa.eu', 'partners/EN_OSHA.jpg', '70'],
-		['http://www.inshpo.org', 'partners/inshpo.jpg', '61'],
-		['http://www.lias.org.sg', 'partners/lias_footer.jpg', '49'],
+		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
+		['http://www.sha.org.sg', 'partners/sha.jpg', '120'],
+		['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
+		// ['http://www.aiha.org', 'partners/AIHA.jpg', '83'],
+		// ['http://www.aspri.com.sg', 'partners/aspri_footer.jpg', '71'],
+		// ['http://www.asse.org', 'partners/asselogo.jpg', '49'],
+		// ['https://osha.europa.eu', 'partners/EN_OSHA.jpg', '70'],
+		// ['http://www.inshpo.org', 'partners/inshpo.jpg', '61'],
+		// ['http://www.lias.org.sg', 'partners/lias_footer.jpg', '49'],
 	];
 			
 	$support2 = [
