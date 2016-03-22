@@ -36,11 +36,11 @@
 	
 		// ['#', 'footer/strategic.png', '140', '50'],
 	$strat1 = [
-			['http://www.hpb.gov.sg/HOPPortal', 'partners/hpb_footer.jpg', '83'],
+			['http://www.hpb.gov.sg/HOPPortal', 'partners/hpb.jpg', '85'],
 			['http://www.iali-aiit.org', 'partners/iali_footer.jpg', '77'],
 			['http://www.icohweb.org', 'partners/ICOH.jpg', '52'],
 			['http://www.iosh.co.uk', 'partners/iosh_footer.jpg', '69'],
-			['http://www.ilo.org/global/about-the-ilo/lang--en/index.htm', 'partners/new/ilo_1.jpg', '43'],
+			['http://www.ilo.org/global/about-the-ilo/lang--en/index.htm', 'partners/ILO.jpg', '43'],
 		];
 
 
@@ -48,23 +48,24 @@
 		['http://www.ntuc.org.sg', 'partners/ntuc_new1.jpg', '70'],
 		['http://www.sbf.org.sg', 'partners/sbf.jpg', '90'],
 		['http://www.shri.org.sg', 'partners/SHRI.jpg', '58'],
-		['http://www.siso.org.sg', 'partners/siso.png', '55'],
+		['http://www.siso.org.sg', 'partners/siso.jpg', '55'],
 		['http://www.snef.org.sg/', 'partners/snef_footer.jpg', '83'],
 	];
 	
 	$support0 = [
 		// ['http://www.asme.org.sg', 'partners/asme.jpg', '70'],
 		['http://www.enetosh.net', 'partners/enetosh.jpg', '55'],
+		['http://www.nyp.edu.sg', 'partners/NYP.jpg', '110'],
 		['http://www.ras.org.sg', 'partners/ras.jpg', '80'],
-		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
-		['http://www.sha.org.sg', 'partners/sha.jpg', '120'],
-		['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
+		// ['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
+		// ['http://www.sha.org.sg', 'partners/sha.jpg', '120'],
+		// ['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
 	];
 
 	$support1 = [
 		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
 		['http://www.sha.org.sg', 'partners/sha.jpg', '120'],
-		['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
+		['http://www.slp.org.sg', 'partners/slp.jpg', '65'],
 		// ['http://www.aiha.org', 'partners/AIHA.jpg', '83'],
 		// ['http://www.aspri.com.sg', 'partners/aspri_footer.jpg', '71'],
 		// ['http://www.asse.org', 'partners/asselogo.jpg', '49'],
@@ -75,7 +76,6 @@
 			
 	$support2 = [
 		['http://www.np.edu.sg', 'partners/NP_footer.jpg', '109'],
-		['http://www.nyp.edu.sg', 'partners/NYP.jpg', '107'],
 		['http://www.rp.edu.sg', 'partners/RP.jpg', '85'],
 		['#','partners/scal.jpg', '72'],
 		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],

@@ -25,8 +25,8 @@ $organisers = [
 
 $strategic = [
 	[
-		'partners/new/hpb_130_1.jpg',
-		'110',
+		'partners/hpb.jpg',
+		'130',
 		'The Health Promotion Board was established as a statutory board under the Ministry of Health, Singapore, in 2001 with the vision of building “A Nation of Healthy People”. The Health Promotion Board aims to empower the people of Singapore to attain optimal health, increase the quality and years of healthy life and prevent illness, disability and premature death. As the key agency overseeing national health promotion and disease prevention programmes, HPB spearheads health education, promotion and prevention programmes as well as creates a health-supportive environment in Singapore. It develops and organises relevant health promotion and disease prevention programmes, reaching out to the healthy, the at-risk and the unhealthy at all stages of life – children, youths, adults and older Singapore residents. Its health promotion programmes include nutrition, mental health, physical activity, smoking control and communicable disease education. For working adults, HPB manages the Workplace Health Promotion Programme, aimed at creating a healthy, productive and engaged workforce. HPB also promotes healthy ageing, integrated health screening, and chronic disease education and management.',
 		'For more information, visit <a href=\'http://www.hpb.gov.sg\' target="_blank">www.hpb.gov.sg</a>',
 	],[
@@ -56,7 +56,7 @@ $strategic = [
 		'We are a not for profit organisation recognised by the ILO as a non-governmental organisation.',
 		'For more information, visit <a href=\'http://www.iosh.co.uk\' target="_blank">www.iosh.co.uk</a>',
 	],[
-		'partners/new/ilo_1.jpg',
+		'partners/ILO.jpg',
 		'60',
 		'The International Labour Organization (ILO) is the United Nations Agency for the world of work. It sets international labour standards, priorities, rights at work and encourages decent employment opportunities, the enforcement of social protections and the strengthening of dialogue on work-related issues. The ILO has a unique structure, bringing together governments, employers\' and workers\' representatives.',
 		'For more information, visit <a href=\'http://www.ilo.org/global/about-the-ilo/lang--en/index.htm\' target="_blank">www.ilo.org</a>',
@@ -66,7 +66,7 @@ $strategic = [
 		'The National Trades Union Congress (NTUC) is a national confederation of trade unions in the industrial, service and public sectors in Singapore. NTUC\'s objectives are to help Singapore stay competitive and workers remain employable for life; to enhance the social status and well-being of workers; and to build a strong, responsible and caring labour movement. NTUC\'s vision is to be an inclusive labour movement for all collars, ages and nationalities. NTUC is at the heart of the Labour Movement, which comprises 60 affiliated unions, one affiliated taxi association, 11 social enterprises, five related organisations and over 880,000 members.',
 		'For more information, visit <a href=\'http://www.ntuc.org.sg\' target="_blank">www.ntuc.org.sg</a>',
 	],[
-		'partners/SBF_130.jpg',
+		'partners/sbf.jpg',
 		'110',
 		'The Singapore Business Federation (SBF) is the apex business chamber representing the business community’s interests in Singapore and abroad in trade, investment and industrial relations.',
 		'Established on 1 April 2002 and with a membership of 22,500 companies, all Singapore-registered companies with a share capital of S$0.5 million and above are members of SBF. The Federation also works closely with key local and foreign business chambers that contribute significantly to the Singapore economy.',
@@ -81,7 +81,7 @@ $strategic = [
 		'Since 1965, SHRI has been instrumental in building the HR brand in tandem with Singapore’s nation building efforts since our independence in the same year. In 2015, SHRI celebrated <i>50 years of powering human capital in Singapore.</i>',
 		'For more information, visit <a href=\'http://www.shri.org.sg\' target="_blank">www.shri.org.sg</a>'
 	],[
-		'partners/new/siso_130_1.jpg',
+		'partners/siso.jpg',
 		'85',
 		'Established in 1975, the Singapore Institution of Safety Officers (SISO) has since grown to more than 1,300 members who are not only workplace safety & health (WSH) officers but also specialists in occupational safety, health and environment, fire-safety, occupational hygiene and ergonomics.',
 		'SISO’s vision is to be the leading Institution representing WSH professionals in Singapore and its mission is to establish professional development opportunities to enhance the competence and status of our members and to promote and uphold high standards of professional practice among our members. SISO’s members serve actively in many different industries and provide professional services that add value to the businesses in which they work. Many also represent the Institution in working committees in the Ministry of Manpower, Workplace Safety and Health Council’s Functional & Industry Committees, Workforce Development Agency (WDA), LTA, and SPRING Singapore, amongst others.',
@@ -101,7 +101,6 @@ $strategic = [
 $support = [
 	
 	// [
-		
 	// 	'partners/asme1.jpg',
 	//  	'100',
 	// 	'Association of Small and Medium Enterprises is a not-for-profit organisation established in 1986 for entrepreneurs, by entrepreneurs. With wide-ranging services and programmes, aSME strives to equip member SMEs with the business knowledge and market opportunities to help them grow their businesses.',
@@ -119,13 +118,20 @@ $support = [
 		'ENETOSH is part of a worldwide network of networks with a focus on education and training in occupational safety and health.',
 		'For more information, visit <a href=\'http://www.enetosh.net\' target="_blank" >www.enetosh.net</a>'
 	],[
+		'partners/NYP.jpg',
+		'160',
+		'Established in 1992, Nanyang Polytechnic (NYP) is a premier tertiary institution that offers quality education in Engineering, Information Technology, Design, Interactive & Digital Media, Chemical & Life Sciences, Business Management and Health Sciences.  It offers 50 full-time diploma courses and a suite of post-diploma and customised courses for continuing education.',
+		'Polytechnic\'s industry-relevant and real world-based training equips students to become employment-ready upon graduation. It aims to nurture students into innovative and enterprising individuals, capable of succeeding in any path they choose to take, be it a career or in further studies.',
+		'Nanyang Polytechnic is also the proud recipient of the prestigious Singapore Quality Award, the Innovation Excellence Award and the People Excellence Award. This makes NYP the first education institution in Singapore to receive these three top organisational and business excellence awards.',
+		'For more information, visit <a href=\'www.nyp.edu.sg\'>www.nyp.edu.sg</a>'
+	],[
 		'partners/ras.jpg',
-		'110',
+		'120',
 		'As the pioneer and largest F&B Association in Singapore, Restaurant Association of Singapore (RAS) has more than 300 members accounting for more than 2,300 outlets. Our members comprise a good mix of various cuisines and other business models such as caterers, fast foods and food courts, providing a wholesome view and opinion, with the common goal to propel the industry forward.',
 		'For the past 35 years, RAS has acted as a collective voice for the F&B industry and strived to advance the industry through various platforms such as bridging a closer working relationships between businesses and government agencies, networking events, recognition and awards platforms and administering programmes to drive business success such as 5S and SME Talent Programme.',
 		'For more information, visit <a href=\'http://www.ras.org.sg\' target="_blank" >www.ras.org.sg</a>'
 	],[
-		'partners/new/scic_130.jpg',
+		'partners/SCIC.jpg',
 		'100',
 		'The Singapore Chemical Industry Council or (SCIC) is the official body representing the Chemical Industry of Singapore in the private sector. It plays a proactive role in representing the interests of the local chemical industry and continues to promote it as a major economic pillar of Singapore.',
 		'SCIC was officially formed under the umbrella of the former Singapore Manufacturers Association (SMa) on 8th May 1979 by a group of 17 manufacturers. SCIC is affiliated to the ASEAN Chemical Industries Council (ASEAN-CIC). It was incorporated as an independent entity on 28 June 2007.',
@@ -192,13 +198,6 @@ $support_old = [
 		'Ngee Ann Polytechnic was set up in 1963 by the Ngee Ann Kongsi.  Today, the polytechnic is one of Singapore’s leading institutions of higher learning with over 16,000 full-time students, about 2,000 part-time students and a vibrant alumni community of more than 130,000. There are 48 full-time courses that cover diverse areas ranging from business, media, humanities and social sciences to IT, engineering, life sciences, and health sciences.',
 		'To promote lifelong learning, the polytechnic also set up CET Academy to give adult learners the opportunity to upgrade their skills through a wide range of part-time programmes. The Academy provides up to 10,000 training places for adult learners annually through over 200 courses each year.',
 		'For more information, visit <a href=\'www.np.edu.sg\'>www.np.edu.sg</a>'
-	],[
-		'www.nyp.edu.sg',
-		'partners/NYP.jpg',
-		'Established in 1992, Nanyang Polytechnic (NYP) is a premier tertiary institution that offers quality education in Engineering, Information Technology, Design, Interactive & Digital Media, Chemical & Life Sciences, Business Management and Health Sciences.  It offers 50 full-time diploma courses and a suite of post-diploma and customised courses for continuing education.',
-		'The Polytechnic’s industry-relevant and real world-based training equips students to become employment-ready upon graduation. It aims to nurture students into innovative and enterprising individuals, capable of succeeding in any path they choose to take, be it a career or in further studies.',
-		'Nanyang Polytechnic is also the proud recipient of the prestigious Singapore Quality Award, the Innovation Excellence Award and the People Excellence Award. This makes NYP the first education institution in Singapore to receive these three top organisational and business excellence awards.',
-		'For more information, visit <a href=\'www.nyp.edu.sg\'>www.nyp.edu.sg</a>'
 	],[
 		'http://www.rp.edu.sg',
 		'partners/new/rp_130.jpg',
