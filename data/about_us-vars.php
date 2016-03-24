@@ -100,14 +100,14 @@ $strategic = [
 
 $support = [
 	
-	// [
-	// 	'partners/asme1.jpg',
-	//  	'100',
-	// 	'Association of Small and Medium Enterprises is a not-for-profit organisation established in 1986 for entrepreneurs, by entrepreneurs. With wide-ranging services and programmes, aSME strives to equip member SMEs with the business knowledge and market opportunities to help them grow their businesses.',
-	// 	'ASME, as the champion of a pro-enterprise Singapore, bridges the public and the private sectors to promote a more conducive business environment which facilitates the start-up, growth and development of a larger pool of SMEs. The two flagship ASME awards – The Entrepreneur of the Year Award and Singapore Prestige Brand Awards are in recognition of SMEs’ successes.',
-	// 	'ASME will continue to roll out new SME-relevant programmes to enhance its position as the business association For Entrepreneurs, By Entrepreneurs.',
-	// 	'For more information, visit <a href=\'www.asme.org.sg\' target="_blank">www.asme.org.sg</a>'
-	// ],
+	[
+		'partners/asme1.jpg',
+	 	'100',
+		'Association of Small and Medium Enterprises is a not-for-profit organisation established in 1986 for entrepreneurs, by entrepreneurs. With wide-ranging services and programmes, aSME strives to equip member SMEs with the business knowledge and market opportunities to help them grow their businesses.',
+		'ASME, as the champion of a pro-enterprise Singapore, bridges the public and the private sectors to promote a more conducive business environment which facilitates the start-up, growth and development of a larger pool of SMEs. The two flagship ASME awards – The Entrepreneur of the Year Award and Singapore Prestige Brand Awards are in recognition of SMEs’ successes.',
+		'ASME will continue to roll out new SME-relevant programmes to enhance its position as the business association For Entrepreneurs, By Entrepreneurs.',
+		'For more information, visit <a href=\'www.asme.org.sg\' target="_blank">www.asme.org.sg</a>'
+	],
 	[
 		'partners/ras.jpg',
 		'120',
@@ -129,6 +129,14 @@ $support = [
 		'Activities of SHA revolve around the following main themes:',
 		'<ul><li>Research and Representations</li> <li>Marketing and Promotions</li> <li>Manpower and Training</li> <li>Productivity and Service Excellence</li> <li>Safety and Security</li> <li>Community and Public Relations</li> <li>Publications</li></ul>',
 		'For more information, visit <a href=\'www.sha.org.sg\' target="_blank">www.sha.org.sg</a>'
+	],[
+		'partners/nhg.jpg',
+		'90',
+		'The National Healthcare Group’s (NHG) vision is Adding Years of Healthy Life. This goes beyond merely healing the sick to the more difficult and infinitely more rewarding task of preventing illness and preserving health and quality of life.',
+		'NHG is a leader in public healthcare in Singapore, recognised at home and abroad for the quality of its medical expertise and facilities.',
+		'As a Regional Health System (RHS) for Singapore, we provide care through an integrated network and collaborate with Hospitals, Specialty Centres, Polyclinics, Patients, Caregivers, Partners, Volunteers and the Community. Together with our partners we bring a rich legacy of medical expertise to our philosophy of integrated person-centred care.',
+		'With our focus on providing accessible, affordable and quality healthcare services, NHG strives to improve integrated care within the RHS involving long-term collaborations with other healthcare and community partners.',
+		'For more information, visit <a href=\'www.nhg.com.sg\' target="_blank">www.nhg.com.sg</a>'
 	],[
 		'partners/slp.jpg',
 		'90',

@@ -4,6 +4,7 @@
 	// 'dayOne'=>'Day 1', 'dayTwo'=>'Day 2', 'satellite'=>'Satellite Events'
 	// 'sponsors'=>'Sponsors', 
 	// ['keynote'=>'Keynote Speakers', 'plenary'=>'Plenary Speakers', 'symposium'=>'Symposium Speakers']
+
 	$navbar = [
 		'About' => ['conference'=>'About the Conference', 'organisers'=>'The Organisers', 'strategic'=>'Strategic Partners', 'support'=>'Supporting Partners', 'satellite'=>'Satellite Event Partners', 'contact'=>'Contact Us'],
 		'Programme' => ['overview'=>'Programme Overview', 'day1'=>'Day 1', 'day2'=>'Day 2', 'poster'=>'Call for Posters' ],
@@ -53,13 +54,14 @@
 	];
 	
 	$support0 = [
-		// ['http://www.asme.org.sg', 'partners/asme.jpg', '70'],
+		['http://www.asme.org.sg', 'partners/asme.jpg', '70'],
 		['http://www.ras.org.sg', 'partners/ras.jpg', '80'],
 		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
 		['http://www.sha.org.sg', 'partners/sha.jpg', '120'],	
 	];
 
 	$support1 = [
+		['http://www.nhg.com.sg', 'partners/nhg.jpg', '65'],
 		['http://www.slp.org.sg', 'partners/slp.jpg', '65'],
 		['http://www.enetosh.net', 'partners/enetosh.jpg', '55'],	
 		// ['http://www.aiha.org', 'partners/AIHA.jpg', '83'],
@@ -80,7 +82,7 @@
 	];	
 		
 	$support3 = [
-		['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
+		// ['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
 		['http://www.smfederation.org.sg', 'partners/logo_smf.jpg', '71'],
 		['http://pace.sp.edu.sg', 'partners/SP.jpg', '100'],
 		['http://www.tp.edu.sg', 'partners/TP.jpg', '90'],
