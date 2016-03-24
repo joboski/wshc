@@ -72,6 +72,25 @@
 <?		}														?>		
 	</section>
 
+	<span class="anchor" id="satellite"></span>
+	<section class="section">
+		<h1 class="section-header header-bar header-about">Satellite Event Partners</h1>	
+<?php	foreach( $satellite as $row ){					?>
+		<div class="container">
+			<div class="row mar-top20">
+				<div class="col-md-2 text-center pad-top5 mar-bot30">
+					<img src='images/<?= $row[0] ?>' alt="satellite partner" width="<?= $row[1] ?>">
+				</div>
+				<div class="col-md-10">
+	<?		for( $satellite=2; $satellite<count($row); $satellite++ ){			?>
+						<p><?= $row[$satellite] ?></p>
+	<?		}															?>					
+				</div>
+			</div>
+		</div>
+<?		}														?>		
+	</section>
+
 	<span class="anchor" id="contact"></span>
 	<section class="section">
 	<h1 class="section-header header-bar header-about">Contact Us</h1>	

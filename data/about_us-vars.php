@@ -109,22 +109,6 @@ $support = [
 	// 	'For more information, visit <a href=\'www.asme.org.sg\' target="_blank">www.asme.org.sg</a>'
 	// ],
 	[
-		'partners/enetosh.jpg',
-		'85',
-		'The European Network Education and Training in Occupational Safety and Health (ENETOSH) was set up with the financial support of the European Commission as a 24-month-project in 2005. It started out with 13 partners from 10 countries and celebrated its 10-years-anniversary in 2015 at the European Agency for Safety and Health at Work in Bilbao. Now the network has 81 members from 33 countries all over the world. It is coordinated by the Institute for Work and Health of the German Social Accident Insurance (IAG).',
-		'The fundamental aim of ENETOSH is to promote quality in education and training by mainstreaming safety and health into education and training. By this promotion a solid basis for a culture of prevention is build.',
-		'The idea that safety and health are an integral part of the learning and working environment in all phases of life, guides the work of ENETOSH, which is why it covers all areas of education and training, from kindergarten to school, initial vocational training, higher education through to continuing vocational training.',
-		'One instrument of the work of ENETOSH is the web platform www.enetosh.net, which offers information on the network, news, an expert’s area and a collection of 765 examples of good practice from 45 countries. ENETOSH is currently carrying out a small empirical study investigating the Good Practice Examples in this database. ',
-		'ENETOSH is part of a worldwide network of networks with a focus on education and training in occupational safety and health.',
-		'For more information, visit <a href=\'http://www.enetosh.net\' target="_blank" >www.enetosh.net</a>'
-	],[
-		'partners/NYP.jpg',
-		'160',
-		'Established in 1992, Nanyang Polytechnic (NYP) is a premier tertiary institution that offers quality education in Engineering, Information Technology, Design, Interactive & Digital Media, Chemical & Life Sciences, Business Management and Health Sciences.  It offers 50 full-time diploma courses and a suite of post-diploma and customised courses for continuing education.',
-		'Polytechnic\'s industry-relevant and real world-based training equips students to become employment-ready upon graduation. It aims to nurture students into innovative and enterprising individuals, capable of succeeding in any path they choose to take, be it a career or in further studies.',
-		'Nanyang Polytechnic is also the proud recipient of the prestigious Singapore Quality Award, the Innovation Excellence Award and the People Excellence Award. This makes NYP the first education institution in Singapore to receive these three top organisational and business excellence awards.',
-		'For more information, visit <a href=\'www.nyp.edu.sg\'>www.nyp.edu.sg</a>'
-	],[
 		'partners/ras.jpg',
 		'120',
 		'As the pioneer and largest F&B Association in Singapore, Restaurant Association of Singapore (RAS) has more than 300 members accounting for more than 2,300 outlets. Our members comprise a good mix of various cuisines and other business models such as caterers, fast foods and food courts, providing a wholesome view and opinion, with the common goal to propel the industry forward.',
@@ -151,8 +135,33 @@ $support = [
 		'SLP is a  professional society in the SHE field. Our members come from the oil, petro-chemical and process industries. They are SHE professionals. We hold regular technical talks, training programs, round table discussions, seminars and conferences. Our members sit on advisory committees of WSHC eg. Chemical Industry sub-committee, NEA, SCDF, MOM and SPRING Singapore/Singapore Standards. Some members are Adjunct Professors at NUS.',
 		'Members who take part regularly in our activities get to meet and network with the SHE fraternity.',
 		'For more information, visit <a href=\'www.slp.org.sg\' target="_blank">www.slp.org.sg</a>'
+	],[
+		'partners/enetosh.jpg',
+		'85',
+		'The European Network Education and Training in Occupational Safety and Health (ENETOSH) was set up with the financial support of the European Commission as a 24-month-project in 2005. It started out with 13 partners from 10 countries and celebrated its 10-years-anniversary in 2015 at the European Agency for Safety and Health at Work in Bilbao. Now the network has 81 members from 33 countries all over the world. It is coordinated by the Institute for Work and Health of the German Social Accident Insurance (IAG).',
+		'The fundamental aim of ENETOSH is to promote quality in education and training by mainstreaming safety and health into education and training. By this promotion a solid basis for a culture of prevention is build.',
+		'The idea that safety and health are an integral part of the learning and working environment in all phases of life, guides the work of ENETOSH, which is why it covers all areas of education and training, from kindergarten to school, initial vocational training, higher education through to continuing vocational training.',
+		'One instrument of the work of ENETOSH is the web platform www.enetosh.net, which offers information on the network, news, an expert’s area and a collection of 765 examples of good practice from 45 countries. ENETOSH is currently carrying out a small empirical study investigating the Good Practice Examples in this database. ',
+		'ENETOSH is part of a worldwide network of networks with a focus on education and training in occupational safety and health.',
+		'For more information, visit <a href=\'http://www.enetosh.net\' target="_blank" >www.enetosh.net</a>'
+	],[
+		'partners/NYP.jpg',
+		'160',
+		'Established in 1992, Nanyang Polytechnic (NYP) is a premier tertiary institution that offers quality education in Engineering, Information Technology, Design, Interactive & Digital Media, Chemical & Life Sciences, Business Management and Health Sciences.  It offers 50 full-time diploma courses and a suite of post-diploma and customised courses for continuing education.',
+		'Polytechnic\'s industry-relevant and real world-based training equips students to become employment-ready upon graduation. It aims to nurture students into innovative and enterprising individuals, capable of succeeding in any path they choose to take, be it a career or in further studies.',
+		'Nanyang Polytechnic is also the proud recipient of the prestigious Singapore Quality Award, the Innovation Excellence Award and the People Excellence Award. This makes NYP the first education institution in Singapore to receive these three top organisational and business excellence awards.',
+		'For more information, visit <a href=\'www.nyp.edu.sg\'>www.nyp.edu.sg</a>'
 	],
 
+];
+
+$satellite = [
+	[
+		'partners/sportsg.jpg',
+		'120',
+		'A statutory board of the Ministry of Culture, Community and Youth, Sport Singapore’s core purpose is to inspire the Singapore spirit and transform Singapore through sport. Through innovative, fun and meaningful sporting experiences, our mission is to reach out and serve communities across Singapore with passion and pride. With Vision 2030 – Singapore’s sports master plan, our mandate goes beyond winning medals. Sport Singapore uses sport to create greater sporting opportunities and access, more inclusivity and integration as well as broader development of capabilities. At Sport Singapore, we work with a vast network of public-private-people sector partners for individuals to live better through sports.',
+		'For more information, visit <a href=\'www.sportsingapore.gov.sg\'>www.sportsingapore.gov.sg</a>'
+	],
 ];
 
 $support_old = [

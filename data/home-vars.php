@@ -5,7 +5,7 @@
 	// 'sponsors'=>'Sponsors', 
 	// ['keynote'=>'Keynote Speakers', 'plenary'=>'Plenary Speakers', 'symposium'=>'Symposium Speakers']
 	$navbar = [
-		'About' => ['conference'=>'About the Conference', 'organisers'=>'The Organisers', 'strategic'=>'Strategic Partners', 'support'=>'Supporting Partners', 'contact'=>'Contact Us'],
+		'About' => ['conference'=>'About the Conference', 'organisers'=>'The Organisers', 'strategic'=>'Strategic Partners', 'support'=>'Supporting Partners', 'satellite'=>'Satellite Event Partners', 'contact'=>'Contact Us'],
 		'Programme' => ['overview'=>'Programme Overview', 'day1'=>'Day 1', 'day2'=>'Day 2', 'poster'=>'Call for Posters' ],
 		'Speakers' => NULL,
 		'Registration' => NULL,
@@ -54,18 +54,14 @@
 	
 	$support0 = [
 		// ['http://www.asme.org.sg', 'partners/asme.jpg', '70'],
-		['http://www.enetosh.net', 'partners/enetosh.jpg', '55'],
-		['http://www.nyp.edu.sg', 'partners/NYP.jpg', '110'],
 		['http://www.ras.org.sg', 'partners/ras.jpg', '80'],
-		// ['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
-		// ['http://www.sha.org.sg', 'partners/sha.jpg', '120'],
-		// ['http://www.slp.org.sg', 'partners/slp_footer.jpg', '65'],
+		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
+		['http://www.sha.org.sg', 'partners/sha.jpg', '120'],	
 	];
 
 	$support1 = [
-		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
-		['http://www.sha.org.sg', 'partners/sha.jpg', '120'],
 		['http://www.slp.org.sg', 'partners/slp.jpg', '65'],
+		['http://www.enetosh.net', 'partners/enetosh.jpg', '55'],	
 		// ['http://www.aiha.org', 'partners/AIHA.jpg', '83'],
 		// ['http://www.aspri.com.sg', 'partners/aspri_footer.jpg', '71'],
 		// ['http://www.asse.org', 'partners/asselogo.jpg', '49'],
@@ -75,11 +71,12 @@
 	];
 			
 	$support2 = [
-		['http://www.np.edu.sg', 'partners/NP_footer.jpg', '109'],
-		['http://www.rp.edu.sg', 'partners/RP.jpg', '85'],
-		['#','partners/scal.jpg', '72'],
-		['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
-		['http://www.sha.org.sg', 'partners/SHA_footer.jpg', '109'],
+		['http://www.nyp.edu.sg', 'partners/NYP.jpg', '150'],
+		// ['http://www.np.edu.sg', 'partners/NP_footer.jpg', '109'],
+		// ['http://www.rp.edu.sg', 'partners/RP.jpg', '85'],
+		// ['#','partners/scal.jpg', '72'],
+		// ['http://www.scic.sg', 'partners/SCIC.jpg', '87'],
+		// ['http://www.sha.org.sg', 'partners/SHA_footer.jpg', '109'],
 	];	
 		
 	$support3 = [
@@ -96,6 +93,10 @@
 		['http://www.sutd.edu.sg', 'partners/SUTD.jpg', '77'],
 		['http://www.unisim.edu.sg', 'partners/UniSIM.jpg', '122'],
 	];	
+
+	$satellite1 = [
+		['http://www.sportsingapore.gov.sg', 'partners/sportsg.jpg', '100'],
+	];
 		
 	$gold = [
 		['http://www.kepcorp.com', 'partners/Keppel.jpg', '160']
@@ -107,7 +108,7 @@
 
 		
 	$general = [
-		// ['http://www.cdl.com.sg/app/cdl/index.xml', 'partners/CDL.jpg', '62', '55'],
+		['http://www.cdl.com.sg/app/cdl/index.xml', 'partners/CDL.jpg', '80'],
 		// ['http://www.fareast.com.sg/', 'partners/FEO.jpg', '140', '63'],
 		// ['www.pcs.com.sg','partners/pcs.jpg', '65', '45'],
 		['https://www.singaporepsa.com/', 'partners/PSA.jpg', '83'],

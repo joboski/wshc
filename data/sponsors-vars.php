@@ -32,7 +32,7 @@ $sponsor_lists = [
 	[
 		'http://www.cdl.com.sg',
 		'partners/CDL.jpg',
-		'100',
+		'110',
 		[
 			'City Developments Limited (CDL) is a Singapore-listed international property and hospitality conglomerate with businesses in real estate development and investment, hotel ownership and management, facilities management and the provision of hospitality solutions. As Singapore\'s property pioneer, CDL holds an impressive track record of having developed over 34,000 luxurious and quality homes across diverse market segments. It is also one of the Singapore’s largest landlords.',
 			'CDL established its Environmental, Health & Safety (EHS) Policy in 2003, demonstrating its commitment towards creating a Safe and Green culture in its operations. It was the first Singapore private developer to be certified with OHSAS 18001 for occupational health and safety management.',
@@ -92,7 +92,8 @@ $sponsors = [
 		'keppel' => $sponsor_lists['keppel'],
 	],
 
-	'General Sponsor' => [
+	'General Sponsors' => [
+		// 'cdl' => $sponsor_lists['cdl'],
 		'psa' => $sponsor_lists['psa'],
 	]
 ];

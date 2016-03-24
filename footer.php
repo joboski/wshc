@@ -45,6 +45,14 @@
        			<? }	?>
        			</ul>
        		</div>
+       		<div class="logo_array" style="display:none;">
+       			<h5 class="txt-bold align-center">Supporting Partners</h5>	
+       			<ul class="list-inline align-center">
+       			<? foreach( $support2 as $value ){	?>
+       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
+       			<? }	?>
+       			</ul>
+       		</div>
        		<div class="hide" style="display:none;">
        			<h5 class="txt-bold align-center">Supporting Partners</h5>	
        			<ul class="list-inline align-center">
@@ -53,14 +61,14 @@
        			<? }	?>
        			</ul>
        		</div>
-       		<div class="hide" style="display:none;">
-       			<h5 class="txt-bold align-center">Supporting Partners</h5>	
-       			<ul class="list-inline align-center">
-       			<? foreach( $support4 as $value ){	?>
-       				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
-       			<? }	?>
-       			</ul>
-       		</div>
+                     <div class="hide" style="display:none;">
+                            <h5 class="txt-bold align-center">Satellite Event Partners</h5>     
+                            <ul class="list-inline align-center">
+                            <? foreach( $satellite1 as $value ){ ?>
+                                   <li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
+                            <? }   ?>
+                            </ul>
+                     </div>
        		<div class="logo_array" style="display:none;">
        			<h5 class="txt-bold align-center">Gold Sponsor</h5>	
        			<ul class="list-inline align-center">
@@ -78,7 +86,7 @@
        			</ul>
        		</div>
        		<div class="logo_array" style="display:none;">
-       			<h5 class="txt-bold align-center">General Sponsor</h5>	
+       			<h5 class="txt-bold align-center">General Sponsors</h5>	
        			<ul class="list-inline align-center">
        			<? foreach( $general as $value ){	?>
        				<li><a href='<?= $value[0] ?>' target="_blank"><img src='images/<?= $value[1] ?>' width="<?php echo $value[2] ?>"/></a></li>
